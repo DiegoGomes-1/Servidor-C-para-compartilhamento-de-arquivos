@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<hyml>
+  <head>
+     <style>
+     .imgFormat{
+   	
+   	 width: 200px;
+    	 height: 200px;
+   	
+   	 border-radius:50%;
+    	 position: absolute;
+    	 background-color: blue;
+    	 color:black;
+  	 top: 50%; /* posiciona na metade da tela */
+  	 margin-top: -130px; /* e retrocede metade da altura */
+  	 left: 50%; /* posiciona na metade da tela */
+  	 margin-left: -80px;
+  	 animation: example alternate linear 10s infinite ;
+
+	} 
+	.imgFormat2{
+    	
+    	 color:white;
+  	 top: 50%; /* posiciona na metade da tela */
+  	 margin-top: 75px; /* e retrocede metade da altura */
+  	 left: 50%; /* posiciona na metade da tela */
+  	 margin-left: 25px;
+  	 font-size:30px;
+  	 
+	} 
+	
+	@keyframes rotate {
+		from {transform:rotateY(0deg);}
+		to {transform:rotateY(360deg);}
+	}
+	@keyframes example {
+  		from {background-color:white;}
+  		to {background-color:blue;}
+	}
+     </style>
+  </head>
+  <body>
+     <div class="imgFormat"><p class="imgFormat2">Hello Uai!!!</p></div>	
+  </body>
+</html>
