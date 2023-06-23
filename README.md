@@ -1,12 +1,12 @@
 # tp1Redes
-Servidor para compartilhamento de arquivos e outros requisitos do trabalho prático
+Servidor para compartilhamento de arquivos e outros requisitos do trabalho prático.
 
-1-Para compartilhar seus arquivos coloque-os na pasta nuvem
+1-Para compartilhar seus arquivos coloque-os na pasta nuvem.
 
 2-Altere o código para os diretórios do seu sistema operacional, 
-os locais de alteração estão sugeridos pelos comentarios no código.
+os locais de alteração estão sugeridos pelos comentários no código.
 
-3-Para compilar o servidor, navegue até o diretorio do arquivo "servidor.c" e digite no terminal, gcc servidor.c -o servior e tecle enter.
+3-Para compilar o servidor, navegue até o diretorio do arquivo "servidor.c" e digite no terminal, gcc servidor.c -o servidor e tecle enter.
 
 4-Para executar ./servidor
 
