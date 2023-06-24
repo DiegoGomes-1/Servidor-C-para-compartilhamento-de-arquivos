@@ -145,7 +145,7 @@ int main()
        *q = '\0';
        //printf("P:%s\n",p);
        char header[10000],caminho[100],*content;
-       sprintf(caminho,"/home/diego/Área de Trabalho/tp1/nuvem/%s",p);
+       sprintf(caminho,"/home/diego/Área de Trabalho/tp1/nuvem/%s",p); // Altere aqui para o diretorio onde foram baixados os arquivos
        //printf("%s\n",caminho);
        char *r = strstr(p,".");
        r++;
@@ -186,7 +186,7 @@ int main()
     else if(strstr(buff,"/info")!=NULL){
        
         system("hostnamectl >> info.txt");
-        FILE *arq = fopen("/home/diego/Área de Trabalho/tp1/info.txt","rb+");
+        FILE *arq = fopen("/home/diego/Área de Trabalho/tp1/info.txt","rb+"); // Altere aqui para o diretorio onde foram baixados os arquivos
         fseek(arq,0,SEEK_END);
         char vet[2];
         vet[0] = '\n';
@@ -229,7 +229,7 @@ int main()
     }   
     else if(strstr(buff,"/hello")!=NULL){
         
-        FILE *arq = fopen("/home/diego/Área de Trabalho/tp1/hello.html","rb");
+        FILE *arq = fopen("/home/diego/Área de Trabalho/tp1/hello.html","rb"); // Altere aqui para o diretorio onde foram baixados os arquivos
         char header[10000];
         if(arq == NULL){ printf ("arquivo não abriu\n");}
         else
